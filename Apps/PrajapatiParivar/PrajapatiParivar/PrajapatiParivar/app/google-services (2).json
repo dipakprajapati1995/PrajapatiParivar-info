@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "676242386061",
+    "firebase_url": "https://tareti-prajapati-parivar.firebaseio.com",
+    "project_id": "tareti-prajapati-parivar",
+    "storage_bucket": "tareti-prajapati-parivar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676242386061:android:a60b513d080d2679",
+        "android_client_info": {
+          "package_name": "com.example.prajapatiparivar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676242386061-2in1t85ig0l8i4vf3fujev60qhgu209g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prajapatiparivar",
+            "certificate_hash": "c64c653277128bfcfb091ac471c4bd7ee2f22ec2"
+          }
+        },
+        {
+          "client_id": "676242386061-csv1guerp57e2to1s82i0v700dutm634.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6dokD1gpQ1MaaDEkZBtdHtgxQSM1oMrw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676242386061-csv1guerp57e2to1s82i0v700dutm634.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

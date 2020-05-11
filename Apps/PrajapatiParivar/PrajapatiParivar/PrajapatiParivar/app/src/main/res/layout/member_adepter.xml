@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    app:ignore="NamespaceTypo">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:elevation="3dp"
+
+        app:cardCornerRadius="@dimen/_10sdp"
+        card_view:cardCornerRadius="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvname"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#93E0BD"
+                android:gravity="center"
+                android:padding="@dimen/_8sdp"
+
+                android:layout_margin="@dimen/_10sdp"
+                android:text="Prajapati dipak"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#f5f5f5"
+                android:orientation="horizontal"
+                android:visibility="invisible">
+                <ImageView
+                    android:id="@+id/photoIV"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_90sdp"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"/>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <TextView
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="જન્મ તારીખ : "
+                            android:textColor="@color/colorAccent"
+
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/dobTV"
+
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorAccent"
+
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <TextView
+
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="ભણતર : "
+                            android:textColor="@color/colorAccent"
+
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/educationTV"
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorAccent"
+
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <TextView
+
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+
+                            android:text="લગ્ન સ્થિતિ : "
+                            android:textColor="@color/colorAccent"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/maritalTV"
+
+                            android:layout_width="140dp"
+
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <TextView
+
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+
+                            android:text="મોસાળ : "
+                            android:textColor="@color/colorAccent"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/mosalTV"
+
+                            android:layout_width="140dp"
+
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+
+                            android:text="મૂળવતન / પિયર : "
+                            android:textColor="@color/colorAccent"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/piyarTV"
+
+                            android:layout_width="140dp"
+
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <TextView
+
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+
+                            android:text="બ્લડ ગ્રુપ  : "
+                            android:textColor="@color/colorAccent"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/bloodgroupTV"
+
+                            android:layout_width="140dp"
+
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="મોબાઈલ નં : "
+                            android:textColor="@color/colorAccent"
+                            android:textSize="18sp" />
+
+
+                            <TextView
+                                android:id="@+id/mobileBtn"
+                                android:layout_width="140dp"
+                                android:layout_height="30dp"
+                                android:textColor="@color/colorAccent"
+                                android:textSize="18sp" />
+
+                            <ImageView
+                                android:id="@+id/whatsappBtn"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="end"
+                                android:layout_marginLeft="30dp"
+                                android:layout_toRightOf="@id/mobileBtn"
+
+                                />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <TextView
+
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="હાલ નું રહેઠાણ : "
+                            android:textColor="@color/colorAccent"
+
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/currentTV"
+
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorAccent"
+
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?><!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context=".MemberFullDetailActivity">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
+
+          <LinearLayout
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+
+              android:layout_margin="5dp">
+
+               <LinearLayout
+                   android:orientation="horizontal"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:text="ગામ : "
+                        android:gravity="right"
+                        android:textSize="20sp"
+                        android:textColor="#db3236" />
+
+                    <TextView
+                        android:id="@+id/nativeTV"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#676767"/>
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:text="શાખ : "
+                        android:gravity="right"
+                        android:textSize="20sp"
+                        android:textColor="#db3236" />
+
+                    <TextView
+                        android:id="@+id/shakhTV"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#676767"/>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:orientation="vertical"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=": :  સરનામું  : : "
+                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:textColor="#db3236" />
+
+                    <TextView
+                        android:id="@+id/addressTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:textColor="#676767"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"/>
+
+               </LinearLayout>
+
+          </LinearLayout>
+
+          <ExpandableListView
+              android:id="@+id/expandableListView"
+              android:layout_height="match_parent"
+              android:layout_width="match_parent"
+              android:theme="@style/MyExpandableListView"/>
+
+     </LinearLayout>
+
+</RelativeLayout>-->
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:elevation="3dp"
+        card_view:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ImgUser"
+                android:layout_width="130dp"
+                android:layout_height="155dp"
+
+                android:scaleType="fitXY" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="નામ : " />
+
+
+                    <TextView
+                        android:id="@+id/tvname"
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="જન્મ તારીખ : " />
+
+
+                    <TextView
+                        android:id="@+id/tvBod"
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="ભણતર : " />
+
+
+                    <TextView
+                        android:id="@+id/tvstudy"
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="લગ્ન સ્થિતિ : " />
+
+
+                    <TextView
+                        android:id="@+id/tvMaridStatus"
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text=" પિયર : " />
+
+
+                    <TextView
+                        android:id="@+id/tvPiyar"
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+
+
+                        />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="મોસાળ : " />
+
+
+                    <TextView
+                        android:id="@+id/tvMoshad"
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="બ્લડ ગ્રુપ  : " />
+
+
+                    <TextView
+                        android:id="@+id/tvBloadGroop"
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="મોબાઈલ નં : " />
+
+
+                    <TextView
+                        android:id="@+id/tvMobile"
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="હાલ નું રહેઠાણ : " />
+
+
+                    <TextView
+                        android:id="@+id/tvAddress"
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right" />
+                </TableRow>
+
+
+            </TableLayout>
+
+            <Button
+                android:layout_marginTop="@dimen/_10sdp"
+                android:id="@+id/updateButton"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rount_button"
+                android:text="Up Date Profile" />
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
